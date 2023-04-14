@@ -581,6 +581,53 @@ LoginModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInject
 
 /***/ }),
 
+/***/ "PnGL":
+/*!***********************************************!*\
+  !*** ./src/app/core/common/host.component.ts ***!
+  \***********************************************/
+/*! exports provided: HostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HostComponent", function() { return HostComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
+
+
+
+class HostComponent {
+    constructor(router, route) {
+        this.router = router;
+        this.route = route;
+    }
+    ngOnInit() {
+        var _a, _b;
+        const gameId = (_a = this.route.snapshot.queryParams) === null || _a === void 0 ? void 0 : _a.gameId;
+        const token = (_b = this.route.snapshot.queryParams) === null || _b === void 0 ? void 0 : _b.token;
+        if (gameId && token) {
+            console.log('Redirecting to game', this.route.snapshot.queryParams);
+            this.router.navigate(['/game/', gameId, token]);
+        }
+        else {
+            this.router.navigate(['/home']);
+        }
+    }
+}
+HostComponent.ɵfac = function HostComponent_Factory(t) { return new (t || HostComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"])); };
+HostComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HostComponent, selectors: [["host-page"]], decls: 2, vars: 0, template: function HostComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Redirecting...");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, encapsulation: 2 });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HostComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{ selector: 'host-page', template: '<h1>Redirecting...</h1>' }]
+    }], function () { return [{ type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"] }]; }, null); })();
+
+
+/***/ }),
+
 /***/ "RM7K":
 /*!***********************************************!*\
   !*** ./src/app/core/core-lib/jb-date.pipe.ts ***!
@@ -1024,6 +1071,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_locales_en_US_POSIX__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/common/locales/en-US-POSIX */ "vYhH");
 /* harmony import */ var _angular_common_locales_en_US_POSIX__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_en_US_POSIX__WEBPACK_IMPORTED_MODULE_21__);
 /* harmony import */ var _angular_fire_database__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/fire/database */ "sSZD");
+/* harmony import */ var _core_common_host_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @core/common/host.component */ "PnGL");
+
 
 
 
@@ -1077,7 +1126,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _core_core_module__WEBPACK_IMPORTED_MODULE_5__["CoreModule"],
             _shell_shell_module__WEBPACK_IMPORTED_MODULE_6__["ShellModule"],
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _core_common_host_component__WEBPACK_IMPORTED_MODULE_23__["HostComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__["BrowserAnimationsModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_16__["AngularFireModule"], // imports firebase
         _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_17__["AngularFirestoreModule"],
         _angular_fire_auth__WEBPACK_IMPORTED_MODULE_18__["AngularFireAuthModule"],
@@ -1088,7 +1137,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
-                declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]],
+                declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _core_common_host_component__WEBPACK_IMPORTED_MODULE_23__["HostComponent"]],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                     _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__["BrowserAnimationsModule"],
@@ -1646,6 +1695,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../pages/login/login.component */ "D8EZ");
 /* harmony import */ var _pages_home_home_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../pages/home/home.component */ "1LmZ");
 /* harmony import */ var _pages_login_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../pages/login/sign-in/sign-in.component */ "4FMf");
+/* harmony import */ var _host_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./host.component */ "PnGL");
+
 
 
 
@@ -1655,7 +1706,8 @@ __webpack_require__.r(__webpack_exports__);
  * Routes in lazy loaded modules can be defined within the modules (do not add them here)
  ******************************************************************************************/
 const routes = [
-    { path: '', redirectTo: '/games', pathMatch: 'full', data: { label: '-' } },
+    { path: '', component: _host_component__WEBPACK_IMPORTED_MODULE_3__["HostComponent"], data: { label: 'page.label.login', noLogin: true, } },
+    // { path: '', redirectTo: '/games', pathMatch: 'full', data: { label: '-' }},
     { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_0__["LoginComponent"], data: { label: 'page.label.login', noLogin: true, } },
     { path: 'login/sign', component: _pages_login_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_2__["SignInComponent"], data: { label: 'view.login.sign_in', noLogin: true, } },
     { path: 'home', component: _pages_home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"], data: { label: 'page.label.home', permission: 'any' } },

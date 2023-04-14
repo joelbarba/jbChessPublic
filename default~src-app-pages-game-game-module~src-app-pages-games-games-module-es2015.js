@@ -566,7 +566,7 @@ class StoreService {
             return Object.assign({ id }, data);
         })));
     }
-    newGame() {
+    newGame(nextMoveMinutes = 1000) {
         // return this.getGames().then(games => { // Find a requested game to join as player 2
         //   const game = games.find(g => this.canJoinGame(g));
         //   if (game) { return this.joinGame(game); }
@@ -590,7 +590,8 @@ class StoreService {
             videoStatus: '',
             offerSDP: null,
             answerSDP: null,
-            videoConfig: { cam1On: true, mic1On: true, cam2On: true, mic2On: true }
+            videoConfig: { cam1On: true, mic1On: true, cam2On: true, mic2On: true },
+            nextMoveMinutes,
         };
         console.log('newGame', newGame);
         return this.gamesCol.add(newGame).then(game => {

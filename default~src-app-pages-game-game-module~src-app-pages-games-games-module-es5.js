@@ -913,6 +913,7 @@
         _createClass(StoreService, [{
           key: "newGame",
           value: function newGame() {
+            var nextMoveMinutes = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1000;
             // return this.getGames().then(games => { // Find a requested game to join as player 2
             //   const game = games.find(g => this.canJoinGame(g));
             //   if (game) { return this.joinGame(game); }
@@ -941,7 +942,8 @@
                 mic1On: true,
                 cam2On: true,
                 mic2On: true
-              }
+              },
+              nextMoveMinutes: nextMoveMinutes
             };
             console.log('newGame', newGame);
             return this.gamesCol.add(newGame).then(function (game) {

@@ -80,30 +80,30 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function GamesComponent_li_15_Template(rf, ctx) { if (rf & 1) {
+function GamesComponent_li_16_Template(rf, ctx) { if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "jb-btn", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("jbClick", function GamesComponent_li_15_Template_jb_btn_jbClick_10_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const game_r1 = ctx.$implicit; const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.deleteGame(game_r1); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "jb-btn", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("jbClick", function GamesComponent_li_16_Template_jb_btn_jbClick_10_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const game_r1 = ctx.$implicit; const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.deleteGame(game_r1); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "jb-btn", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("jbClick", function GamesComponent_li_15_Template_jb_btn_jbClick_11_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const game_r1 = ctx.$implicit; const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.showLink(game_r1); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "jb-btn", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("jbClick", function GamesComponent_li_16_Template_jb_btn_jbClick_11_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const game_r1 = ctx.$implicit; const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.showLink(game_r1); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "jb-btn", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("jbClick", function GamesComponent_li_15_Template_jb_btn_jbClick_12_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const game_r1 = ctx.$implicit; const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.router.navigate(["game/", game_r1.id, game_r1.token1]); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "jb-btn", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("jbClick", function GamesComponent_li_16_Template_jb_btn_jbClick_12_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const game_r1 = ctx.$implicit; const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.router.navigate(["game/", game_r1.id, game_r1.token1]); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -139,6 +139,7 @@ class GamesComponent {
             orderReverse: true,
             rowsPerPage: 10,
         });
+        this.timeNextMove = 3 * 24 * 60; // 3 days
     }
     ngOnInit() {
         this.sub = this.store.games$.subscribe(games => {
@@ -150,7 +151,7 @@ class GamesComponent {
     }
     ngOnDestroy() { this.sub.unsubscribe(); }
     newGame() {
-        this.store.newGame().then(game => {
+        this.store.newGame(this.timeNextMove).then(game => {
             this.growl.success('view.games.request_send');
             console.log('game', game);
             this.showLink(game);
@@ -160,9 +161,14 @@ class GamesComponent {
         this.confirm.open({
             title: 'view.game.details',
             htmlContent: `Use this link to join as <b>Player1</b>:<br>
-                       http:\\\\127.0.0.1:4200\\game\\${game.id}\\${game.token1}<br><br>
+                       http:\\\\127.0.0.1:4200\\game\\${game.id}\\${game.token1}
+                       <br>
+                       or: https://jb-chess.netlify.app?gameId=${game.id}&token=${game.token1}
+                       <br><br>
                        Or use this link to join as <b>Player2</b>:<br>
-                       http:\\\\127.0.0.1:4200\\game\\${game.id}\\${game.token2}`,
+                       http:\\\\127.0.0.1:4200\\game\\${game.id}\\${game.token2}
+                       <br>
+                       or: https://jb-chess.netlify.app?gameId=${game.id}&token=${game.token2}`,
             yesButtonText: 'view.common.ok',
             showNo: false,
             showCancel: false,
@@ -177,7 +183,7 @@ class GamesComponent {
     }
 }
 GamesComponent.ɵfac = function GamesComponent_Factory(t) { return new (t || GamesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_core_common_jb_profile_service__WEBPACK_IMPORTED_MODULE_4__["JbProfileService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_fire_auth__WEBPACK_IMPORTED_MODULE_5__["AngularFireAuth"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_6__["AngularFirestore"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](jb_ui_lib__WEBPACK_IMPORTED_MODULE_1__["JbGrowlService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_core_store_store_service__WEBPACK_IMPORTED_MODULE_2__["StoreService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](jb_ui_lib__WEBPACK_IMPORTED_MODULE_1__["JbConfirmService"])); };
-GamesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GamesComponent, selectors: [["jb-games"]], decls: 21, vars: 17, consts: [["translate", ""], [1, "row", "whiteBg", "padB10"], ["jbIcon", "icon-search", "jbPlaceholder", "view.common.search", 1, "col-md-7", 3, "jbAutoFocus", "ngModel", "ngModelChange"], [1, "col-md-5", "marB15", "text-right"], ["jbType", "add", "jbText", "view.games.new_game", 3, "jbClick"], [1, "row", 3, "show"], [1, "col-12"], [1, "list-unstyled", "table-list"], [1, "list-header"], ["colTitle", "view.games.request_date", "fieldName", "reqTime", 1, "col-3", 3, "orderConf"], ["colTitle", "view.common.status", "fieldName", "status", 1, "col-2", 3, "orderConf"], ["colTitle", "view.games.player1", "fieldName", "playerName1", 1, "col-2", 3, "orderConf"], ["colTitle", "view.games.player2", "fieldName", "playerName2", 1, "col-2", 3, "orderConf"], [3, "show", "jbColumns"], ["class", "list-row", 3, "show", 4, "ngFor", "ngForOf"], [1, "row", "whiteBg", 3, "show"], ["jbShowSelector", "true", 1, "col-12", "mobile-sm", 3, "jbCtrl"], ["jbIcon", "icon-finish", "jbTitle", "view.games.no_games", 1, "col-12", 3, "jbIsPlaceholder"], [1, "list-row", 3, "show"], [1, "col-3"], [1, "col-2"], [1, "col-3", "text-right"], ["jbType", "delete-icon", 3, "jbClick"], ["jbType", "view-icon", 3, "jbClick"], ["jbType", "update", "jbText", "view.common.go", 3, "jbClick"]], template: function GamesComponent_Template(rf, ctx) { if (rf & 1) {
+GamesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GamesComponent, selectors: [["jb-games"]], decls: 22, vars: 18, consts: [["translate", ""], [1, "row", "whiteBg", "padB10"], ["jbIcon", "icon-search", "jbPlaceholder", "view.common.search", 1, "col-md-5", 3, "jbAutoFocus", "ngModel", "ngModelChange"], [1, "col-md-6", "marB15", "text-right"], ["jbType", "add", "jbText", "view.games.new_game", 3, "jbClick"], ["jbTooltip", "New Game: Minutes timeout for every move", 1, "col-md-1", "flat", 3, "ngModel", "ngModelChange"], [1, "row", 3, "show"], [1, "col-12"], [1, "list-unstyled", "table-list"], [1, "list-header"], ["colTitle", "view.games.request_date", "fieldName", "reqTime", 1, "col-3", 3, "orderConf"], ["colTitle", "view.common.status", "fieldName", "status", 1, "col-2", 3, "orderConf"], ["colTitle", "view.games.player1", "fieldName", "playerName1", 1, "col-2", 3, "orderConf"], ["colTitle", "view.games.player2", "fieldName", "playerName2", 1, "col-2", 3, "orderConf"], [3, "show", "jbColumns"], ["class", "list-row", 3, "show", 4, "ngFor", "ngForOf"], [1, "row", "whiteBg", 3, "show"], ["jbShowSelector", "true", 1, "col-12", "mobile-sm", 3, "jbCtrl"], ["jbIcon", "icon-finish", "jbTitle", "view.games.no_games", 1, "col-12", 3, "jbIsPlaceholder"], [1, "list-row", 3, "show"], [1, "col-3"], [1, "col-2"], [1, "col-3", "text-right"], ["jbType", "delete-icon", 3, "jbClick"], ["jbType", "view-icon", 3, "jbClick"], ["jbType", "update", "jbText", "view.common.go", 3, "jbClick"]], template: function GamesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "view.games.title");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -190,32 +196,37 @@ GamesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("jbClick", function GamesComponent_Template_jb_btn_jbClick_5_listener() { return ctx.newGame(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "jb-input", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function GamesComponent_Template_jb_input_ngModelChange_6_listener($event) { return ctx.timeNextMove = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "jb-list-header-col", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "jb-list-header-col", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "jb-list-header-col", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "jb-list-header-col", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "jb-list-header-col", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "jb-list-placeholder", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, GamesComponent_li_15_Template, 13, 5, "li", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](16, "async");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "jb-list-placeholder", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, GamesComponent_li_16_Template, 13, 5, "li", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](17, "async");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "jb-list-paginator", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "jb-list-paginator", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "jb-no-data", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "jb-no-data", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("jbAutoFocus", true)("ngModel", ctx.gamesList.filterText);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.timeNextMove);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("show", ctx.gamesList.loadingStatus <= ctx.status.LOADING || ctx.gamesList.totalFiltered > 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("orderConf", ctx.gamesList.orderConf);
@@ -226,9 +237,9 @@ GamesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("orderConf", ctx.gamesList.orderConf);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("show", ctx.gamesList.loadingStatus <= ctx.status.LOADING)("jbColumns", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](16, _c0));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("show", ctx.gamesList.loadingStatus <= ctx.status.LOADING)("jbColumns", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](17, _c0));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](16, 14, ctx.gamesList.renderList$));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](17, 15, ctx.gamesList.renderList$));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("show", ctx.gamesList.totalFiltered > 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
